@@ -45,45 +45,43 @@
   line-height: 26px;
   font-weight: 400;
 }
-
-@media screen and (max-width: 1279px) {
-  .intro {
-    max-width: 720px;
-  }
-
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .intro__title {
-    padding-top: 55px;
-    margin: 0 auto;
+    max-width: 720px;
+    max-height: 232px;
   }
 
   .intro__quote {
-    padding-top: 15px;
-    margin: 0 auto;
+    width: 720px;
+    margin: 15px auto 0;
+  }
+
+  .intro__paragraph {
+    margin: 42px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro {
-    max-width: 288px;
-  }
-
   .intro__title {
-    margin: 44px auto 0;
-    font-size: 32px;
+    max-width: 288px;
+    max-height: 175px;
+    font-size: 2rem;
     line-height: 35px;
   }
 
-  .intro__text {
-    max-width: 288px;
-    margin: 0 0 92px;
-  }
-
   .intro__quote {
-    display: flex;
-    flex-direction: column;
+    max-width: 288px;
+    max-height: 300px;
+    margin: 9px auto 0;
   }
 
-  .intro__quote-cite {
-    position: relative;
+  .intro__quote-author {
+    max-width: 288px;
+  }
+
+  .intro__paragraph {
+    max-width: 288px;
+    max-height: 442px;
+    margin: 0 auto;
   }
 }
