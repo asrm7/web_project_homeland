@@ -51,6 +51,7 @@
   max-width: 460px;
   max-height: 460px;
   grid-area: image;
+  box-shadow: 10px 10px 10px #00000080;
 }
 
 .city-cards__description-container {
@@ -68,11 +69,12 @@
 }
 
 .city-cards__buy-nft-button {
+  text-decoration: none;
+  background: linear-gradient(to right, #0278fe, #003a7b);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #0278fe;
   border-radius: 4px;
   font-weight: 600;
   line-height: 21.78px;
@@ -84,11 +86,12 @@
   outline: none;
   grid-row-start: 3;
   grid-area: button;
-  text-decoration: none;
+
+  box-shadow: 10px 10px 10px #00000080;
 }
 
 .city-cards__buy-nft-button:hover {
-  background-color: #003a7b;
+  background: #003a7b;
 }
 
 @media screen and (max-width: 1024px) {
