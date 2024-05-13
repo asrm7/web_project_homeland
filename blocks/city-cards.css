@@ -86,12 +86,12 @@
   outline: none;
   grid-row-start: 3;
   grid-area: button;
-
   box-shadow: 10px 10px 10px #00000080;
 }
 
 .city-cards__buy-nft-button:hover {
-  background: #003a7b;
+  background: linear-gradient(#0278fe 0.25%, #003a7b 100%);
+  box-shadow: 10px 10px 10px #00000080;
 }
 
 @media screen and (max-width: 1024px) {
