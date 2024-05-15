@@ -70,7 +70,7 @@
 
 .city-cards__buy-nft-button {
   text-decoration: none;
-  background: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
   display: flex;
   justify-content: center;
   align-items: center;
